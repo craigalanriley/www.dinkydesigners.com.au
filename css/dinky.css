@@ -26,10 +26,7 @@ img
 
 #footer 
 	{
-    text-align: center;
-    color: #FFF;
     margin-bottom: 0px;
-    font-size: 12px;
 	}
 
 .debug
@@ -50,13 +47,9 @@ img
 	text-align: center;
 	display: block;
 	border-radius: 50%;
-	-webkit-transition: 500ms;
-	-moz-transition: 500ms;
-	-o-transition: 500ms;
-	transition: 500ms;
 	}
 
-.social a:hover 
+a.social:hover 
 	{
 	text-decoration: none;
 	color: #00A055;
@@ -67,10 +60,6 @@ img
 	border-style: dashed !important;
 	margin: 5px 0 5px 0;
 	}
-#footer .row .container .row
-	{
-	padding: 10px;
-	}
 
 .dinkyLightGreen
 	{
@@ -79,4 +68,24 @@ img
 .dinkyDarkGreen
 	{
 	background-color: #00A055;
+	}
+
+.errorText
+	{
+	color: #E9187E;
+	margin: 5px 0 5px 0;
+	}
+
+.footerSocial
+	{
+    padding: 25px 0px 25px 0px;
+	}
+
+.footerText,
+.footerText a
+	{
+    text-align: center;
+    color: #FFF;
+    font-size: 12px;
+    padding: 10px;
 	}
