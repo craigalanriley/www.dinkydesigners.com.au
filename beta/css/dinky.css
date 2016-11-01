@@ -1,6 +1,63 @@
 
 
 
+h1 { font-size: 18px; color: #E9187E }
+h4 { font-size: 16px; color: #00A8DE; margin-bottom: 5px; }
+h6 { font-size: 12px; color: #ccc; margin-bottom: 5px; }
+
+.btn-default,
+.btn-default:active,
+.btn-default:visited,
+.btn-default:focus 
+	{
+    background-color: #00A8DE;
+    border-color: #00A8DE;
+    color: #fff;
+	}
+
+.btn-default:hover
+	{
+    border-color: #E9187E;
+    background-color: #E9187E;
+    color: #fff;
+	}
+
+
+.navbar-nav>li>a
+	{
+  	color: black !important;
+  	background-color: #ffffff !important;
+  	font-size: 16px;
+  	font-weight: 500;
+	}
+
+
+a.logoLightBlue:hover 	{color: #00A8DE !important;}
+a.logoDarkBlue:hover 	{color: #333391 !important;}
+a.logoPurple:hover 		{color: #9C298C !important;}
+a.logoPink:hover 		{color: #E9187E !important;}
+a.logoRed:hover 		{color: #EB2C3B !important;}
+a.logoOrange:hover 		{color: #EF8031 !important;}
+a.logoYellow:hover 		{color: #FDE92B !important;}
+a.logoLightGreen:hover 	{color: #91BE4A !important;}
+a.logoDarkGreen:hover 	{color: #00A055 !important;}
+
+
+.imgRightContainer{float: right; margin: 0px !important; }
+.imgLeftContainer{float: left; margin: 0px !important; }
+
+.imgLeftContainer img 
+	{
+	padding: 10px 10px 10px 0;
+	}
+
+.imgRightContainer img
+	{
+	padding: 10px;
+	}
+
+
+
 body 
 	{
   	font-family: "Helvetica Neue", Arial, sans-serif;
