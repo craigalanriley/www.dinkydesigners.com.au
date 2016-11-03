@@ -7,12 +7,12 @@
 	<section id="content">
 		<div class="container">
 
-			<h1>#UCase("Frequently Asked Questions")#</h1>
+			<h1 class="logoOrange">#UCase("Frequently Asked Questions")#</h1>
 
 			<div class="row">
 				<div class="col-lg-12">
 
-					<div class="col-lg-4 imgRightContainer"><img src="images/dinky-kids-circle.jpg" alt="Dinky Kids" class="" /></div>
+					<div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 imgRightContainer"><img src="images/dinky-kids-circle.jpg" alt="Dinky Kids" class="" /></div>
 
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vehicula metus et condimentum ultrices. Vivamus eget suscipit nisl, egestas euismod sapien. Curabitur porta elementum velit, vitae malesuada elit pulvinar at. Morbi at vulputate sapien. Nunc eu odio velit. In lorem velit, facilisis vel venenatis blandit, malesuada quis sapien. Sed convallis dolor odio, molestie bibendum enim faucibus id. Pellentesque a blandit nisi, sed maximus magna. Quisque odio neque, mattis quis tempor quis, venenatis in nibh. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Integer quis metus est. Sed et luctus nisl. Quisque in aliquet est. Nulla id libero ultrices, aliquet justo at, molestie enim.</p>
 

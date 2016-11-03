@@ -56,10 +56,62 @@
 					<img src="images/dinky_designers_logo_horizontal.png" alt="Dinky Designers Logo"/>
 				</div>
 			</div>
+		</div>
 
+
+		<!-- header test -->
+		<div class="container">
+
+	    	<!-- Fixed navbar -->
+	    	<nav class="navbar navbar-default">
+
+	    		<!-- Tertiary Nav -->
+	    		<div class="navbar-header pull-right">
+			        <ul class="nav tertiary">
+			            <li><a href="#" class="logoDarkGreen"><i class="fa fa-shopping-cart" aria-hidden="true"></i> &nbsp; <span style="color: #000">$0.00</span></a></li>
+			        </ul>
+		        </div>
+
+
+
+	      		<!-- Toggle Button -->
+		        <div class="navbar-header  navbar-left">
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="float:left">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+		        </div>
+					
+		        <!-- Primary Nav -->
+		        <div id="navbar" class="navbar-collapse collapse navbar-left">
+					<ul class="nav navbar-nav">
+						<li><a href="index.cfm" class="logoLightBlue">HOME</a></li>
+						<li><a href="the-dinky-designer.cfm" class="logoDarkBlue">THE DINKY DESIGNER</a></li>
+					    <li><a href="shop.cfm" class="logoPurple">SHOP</a></li>
+					    <li><a href="gift-cards.cfm" class="logoPink">GIFT CARDS</a></li>
+						<li><a href="blog.cfm" class="logoRed">BLOG</a></li>
+						<li><a href="faq.cfm" class="logoOrange">FAQ</a></li>
+						<li><a href="our-story.cfm" class="logoYellow">OUR STORY</a></li>
+						<li><a href="contact-us.cfm" class="logoLightGreen">CONTACT US</a></li>
+					</ul>
+					<!-- <ul class=" navbar-nav navbar-right">
+					<li><a href="#" class="logoDarkGreen"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a ></li>
+					</ul> -->
+		        </div>
+
+		        <!-- <div style="padding: 5px; float: right">x</div> -->
+	      	</div>
+	    </nav>
+
+		<!-- 
+		<div class="container">
 			<div class="row">
 				<div class="navbar-header">
-					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#custom-collapse">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar" style="float:left">
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
@@ -82,7 +134,24 @@
 					</ul>
 				</div>
 			</div>
+		</div> 
+		-->
 
-		</div>
 
 	</header>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

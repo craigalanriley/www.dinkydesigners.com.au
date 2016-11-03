@@ -41,9 +41,8 @@
 		</div>
 
 		<div class="col-lg-12 col-md-12 col-sm-12 footerText dinkyDarkGreen">
-			<div class="col-lg-4 col-md-4 col-sm-4" style="text-align:left">Copyright &copy; 2016 Dinky Designers</div>
-			<div class="col-lg-4 col-md-4 col-sm-4">&nbsp;</div>
-			<div class="col-lg-4 col-md-4 col-sm-4" style="text-align:right">ABN 76 6118 883 25</div>
+			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align:left">&copy; 2016 Dinky Designers</div>
+			<div class="col-lg-6 col-md-6 col-sm-6" col-xs-6 style="text-align:right">ABN 76 6118 883 25</div>
 		</div>
 
 	</footer>

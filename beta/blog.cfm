@@ -6,7 +6,7 @@
 	<section id="content">
 		<div class="container">
 
-			<h1>BLOG</h1>
+			<h1 class="logoRed">BLOG</h1>
 
 			<div class="row">
 

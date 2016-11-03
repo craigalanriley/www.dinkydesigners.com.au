@@ -6,7 +6,7 @@
 	<section id="content">
 		<div class="container">
 
-			<h1>CONTACT US</h1>
+			<h1 class="logoLightGreen">CONTACT US</h1>
 
 			<br /><br /><br /><br /><br />
 			
