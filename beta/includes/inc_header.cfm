@@ -68,7 +68,9 @@
 	    		<!-- Tertiary Nav -->
 	    		<div class="navbar-header pull-right">
 			        <ul class="nav tertiary">
-			            <li><a href="#" class="logoDarkGreen"><i class="fa fa-shopping-cart" aria-hidden="true"></i> &nbsp; <span style="color: #000">$0.00</span></a></li>
+			            <li>
+			            	<a href="#" class=""><i class="fa fa-shopping-cart" aria-hidden="true"></i> &nbsp; <span style="color: #000">$0.00</span></a>
+			            </li>
 			        </ul>
 		        </div>
 
@@ -97,6 +99,7 @@
 						<li><a href="faq.cfm" class="logoOrange">FAQ</a></li>
 						<li><a href="our-story.cfm" class="logoYellow">OUR STORY</a></li>
 						<li><a href="contact-us.cfm" class="logoLightGreen">CONTACT US</a></li>
+						<li><a href="sign-up.cfm" class="logoDarkGreen">SIGN UP</a></li>
 					</ul>
 					<!-- <ul class=" navbar-nav navbar-right">
 					<li><a href="#" class="logoDarkGreen"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a ></li>

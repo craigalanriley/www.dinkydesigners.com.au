@@ -19,7 +19,7 @@
 
 		<div class="container">
 
-			<h1>POPULAR PATTERNS</h1>
+			<h1 class="logoLightBlue">POPULAR PATTERNS</h1>
 
 			<div class="row">
 
@@ -40,7 +40,7 @@
 				
 			</div>
 
-			<h1>LATEST NEWS</h1>
+			<h1 class="logoLightBlue">LATEST NEWS</h1>
 
 			<div class="row">
 

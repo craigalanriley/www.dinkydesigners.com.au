@@ -5,7 +5,7 @@
 	<section id="content">
 		<div class="container">
 
-			<h1>SHOP</h1>
+			<h1 class="logoPurple"><cfoutput>#pageTitle#</cfoutput></h1>
 
 			<div class="row">
 

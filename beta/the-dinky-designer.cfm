@@ -5,7 +5,7 @@
 	<section id="content">
 
 		<div class="container">
-			<h1>The Dinky Designer</h1>
+			<h1 class="logoDarkBlue"><cfoutput>#pageTitle#</cfoutput></h1>
 			<div class="row">
 				<div class="col-lg-12">
 					<img src="images/dinky-kids-professionals.jpg" alt="Dinky Professionals"/>
