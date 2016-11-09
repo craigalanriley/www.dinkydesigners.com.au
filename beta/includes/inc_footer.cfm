@@ -41,15 +41,10 @@
 		</div>
 
 		<div class="col-lg-12 col-md-12 col-sm-12 footerText dinkyDarkGreen">
-<<<<<<< HEAD
-			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align:left">&copy; 2016 Dinky Designers</div>
-			<div class="col-lg-6 col-md-6 col-sm-6" col-xs-6 style="text-align:right">ABN 76 6118 883 25</div>
-=======
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">&copy; 2016 Dinky Designers  |  ABN 76 6118 883 25  | <a href="terms-and-conditions.cfm">Terms & Conditions</a> | <a href="privacy-policy.cfm">Privacy Policy</a></div>
 				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Handcrafted by <a href="http://www.foxtrotyankeeindia.com">Foxtrot Yankee India</a></div>
 			</div>
->>>>>>> 0606d2ec2f784d434f5941325bef28039acdef54
 		</div>
 
 	</footer>
@@ -67,9 +62,6 @@
 	
 	$(function() 
 		{	
-
-<<<<<<< HEAD
-=======
 		// ____________________________________________________________________ Contact Form ____________________________________________
 
 		$("#contactButton").click(function() 
@@ -151,7 +143,6 @@
 
 		// ____________________________________________________________________ Register Form ____________________________________________
 
->>>>>>> 0606d2ec2f784d434f5941325bef28039acdef54
 		$("#signUpButton").click(function() 
 			{
 			var errorMessage = "";
@@ -217,8 +208,6 @@
 				});
 			};
 
-<<<<<<< HEAD
-=======
 		// ____________________________________________________________________ Valdiation Functions ____________________________________________
 
 		function resetForm(formName) 
@@ -228,7 +217,6 @@
 			};
 
 		
->>>>>>> 0606d2ec2f784d434f5941325bef28039acdef54
 
 		function displayErrorMessage(msg) 
 			{
