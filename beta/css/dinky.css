@@ -3,6 +3,14 @@
 
 /* Default Nav Bar style tweaks */
 
+<<<<<<< HEAD
+=======
+.contactUsWrapper i 
+	{
+	width:20px;
+	}
+
+>>>>>>> 0606d2ec2f784d434f5941325bef28039acdef54
 .navbar{ margin-bottom: 20px; }
 
 .navbar-default {
@@ -97,6 +105,10 @@ h6 { font-size: 12px; color: #ccc; margin-bottom: 5px; }
 	}
 
 .logoLightBlue 	{color: #00A8DE !important;}
+<<<<<<< HEAD
+=======
+.logoDarkBlue 	{color: #333391 !important;}
+>>>>>>> 0606d2ec2f784d434f5941325bef28039acdef54
 .logoPurple 	{color: #9C298C !important;}
 .logoPink 		{color: #E9187E !important;}
 .logoRed 		{color: #EB2C3B !important;}
@@ -165,6 +177,21 @@ img
 	border: 1px solid red;
 	}
 
+
+p a:link,
+p a:visited	
+	{
+	text-decoration: none;
+	color: #00A8DE !important;
+	}
+
+p a:hover 
+	{
+	text-decoration: none;
+	color: #E9187E !important;
+	}
+
+
 .social
 	{
 	font-size: 36px;
@@ -185,6 +212,8 @@ a.social:hover
 	text-decoration: none;
 	color: #00A055;
 	}
+
+
 
 .stichBorder
 	{
@@ -212,11 +241,15 @@ a.social:hover
     padding: 25px 0px 25px 0px;
 	}
 
-.footerText,
-.footerText a
+.footerText
 	{
-    text-align: center;
     color: #FFF;
     font-size: 12px;
     padding: 10px;
+    text-align: center;
+	}
+
+.footerText a
+	{
+    color: #FFF;
 	}

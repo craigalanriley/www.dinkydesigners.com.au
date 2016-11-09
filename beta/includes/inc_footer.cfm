@@ -41,8 +41,15 @@
 		</div>
 
 		<div class="col-lg-12 col-md-12 col-sm-12 footerText dinkyDarkGreen">
+<<<<<<< HEAD
 			<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6" style="text-align:left">&copy; 2016 Dinky Designers</div>
 			<div class="col-lg-6 col-md-6 col-sm-6" col-xs-6 style="text-align:right">ABN 76 6118 883 25</div>
+=======
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">&copy; 2016 Dinky Designers  |  ABN 76 6118 883 25  | <a href="terms-and-conditions.cfm">Terms & Conditions</a> | <a href="privacy-policy.cfm">Privacy Policy</a></div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Handcrafted by <a href="http://www.foxtrotyankeeindia.com">Foxtrot Yankee India</a></div>
+			</div>
+>>>>>>> 0606d2ec2f784d434f5941325bef28039acdef54
 		</div>
 
 	</footer>
@@ -61,6 +68,90 @@
 	$(function() 
 		{	
 
+<<<<<<< HEAD
+=======
+		// ____________________________________________________________________ Contact Form ____________________________________________
+
+		$("#contactButton").click(function() 
+			{
+			var errorMessage = "";
+
+			console.log("Contact Us!");
+
+			contactName 	= $("#userName").val();
+			contactPhone 	= $("#userPhone").val();
+			contactEmail 	= $("#userEmail").val();
+			contactMessage 	= $("#userMessage").val();
+
+			console.log("contactName = " + contactName);
+			console.log("contactPhone = " + contactPhone);
+			console.log("contactEmail = " + contactEmail);
+			console.log("contactMessage = " + contactMessage);
+
+			if (isValidEmail(contactEmail) == false)
+				{
+				displayErrorMessage("Please enter a valid email");
+				}
+			else if (isValidString(contactName) == false)
+				{
+				displayErrorMessage("Please enter your name");
+				}
+			else if (isValidString(contactMessage) == false)
+				{
+				displayErrorMessage("Please enter a message");
+				}
+			else{
+				processContactFormData(contactName,contactPhone,contactEmail,contactMessage);
+				};
+
+			});
+
+
+		function processContactFormData(contactName,contactPhone,contactEmail,contactMessage) 
+			{
+			// Insert Data & Send Email
+
+			$.ajax({
+				// the location of the CFC to run
+				url: "cfc/contact.cfc?method=processData"
+				// send a GET HTTP operation
+				, type: "post"
+				// tell jQuery we're getting JSON back
+				// , dataType: "json"
+				// send the data to the CFC
+				, data: {
+				    	Name: contactName,
+				    	Phone: contactPhone,
+				    	Email: contactEmail,
+				    	Message: contactMessage
+				  		}
+				// this gets the data returned on success
+				, success: function (data)
+					{
+					// this uses the "jquery.field.min.js" library to easily populate your form with the data from the server
+					console.log("Sucess!" + data);
+
+					resetForm("contactForm");
+
+					displayErrorMessage("Thank you, we will respond shortly");
+					
+					// $("#saveIcon"+ fixtureID).toggleClass( "fa-spin" ); 
+					
+					}
+				// this runs if an error
+				, error: function (xhr, textStatus, errorThrown)
+					{
+				    // show error
+				    console.log(errorThrown);
+				    
+				    // $("#btnSave").toggleClass( "fa-spin" ); 
+				  	}
+				});
+			};
+
+		// ____________________________________________________________________ Register Form ____________________________________________
+
+>>>>>>> 0606d2ec2f784d434f5941325bef28039acdef54
 		$("#signUpButton").click(function() 
 			{
 			var errorMessage = "";
@@ -126,6 +217,18 @@
 				});
 			};
 
+<<<<<<< HEAD
+=======
+		// ____________________________________________________________________ Valdiation Functions ____________________________________________
+
+		function resetForm(formName) 
+			{
+			console.log("Clear Form");
+			$("#"+formName).trigger("reset");
+			};
+
+		
+>>>>>>> 0606d2ec2f784d434f5941325bef28039acdef54
 
 		function displayErrorMessage(msg) 
 			{
