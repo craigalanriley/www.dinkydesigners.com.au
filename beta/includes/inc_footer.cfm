@@ -25,8 +25,7 @@
 					</div> 
 					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 						<a href="tel:+6120123456789" target="_blank" class="social"><i class="fa fa-phone" aria-hidden="true"></i></a>
-					</div> 
-
+					</div>
 					<!-- 
 					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
 						<a href="https://twitter.com/dinky_designers" target="_blank" class="social"><i class="fa fa-twitter" aria-hidden="true"></i></a>
@@ -40,11 +39,14 @@
 			</div>
 		</div>
 
-		<div class="col-lg-12 col-md-12 col-sm-12 footerText dinkyDarkGreen">
-			<div class="row">
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">&copy; 2016 Dinky Designers  |  ABN 76 6118 883 25  | <a href="terms-and-conditions.cfm">Terms & Conditions</a> | <a href="privacy-policy.cfm">Privacy Policy</a></div>
-				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">Handcrafted by <a href="http://www.foxtrotyankeeindia.com">Foxtrot Yankee India</a></div>
-			</div>
+		<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 footerText dinkyDarkGreen">
+
+			
+			
+			<div class="col-lg-6 text-left">&copy; 2016 Dinky Designers  |  ABN 76 6118 883 25  | <a href="terms-and-conditions.cfm">Terms & Conditions</a> | <a href="privacy-policy.cfm">Privacy Policy</a></div>
+			<div class="col-lg-6 text-right">Handcrafted by <a href="http://www.foxtrotyankeeindia.com" target="_blank">Foxtrot Yankee India</a></div>
+
+			
 		</div>
 
 	</footer>

@@ -44,7 +44,7 @@
 							<input type="text" class="form-control stichBorder" id="userName" placeholder="Name">
 						</div>
 						<div class="col-lg-12">
-							<input type="text" class="form-control stichBorder" id="userPhone" placeholder="Phone">
+							<input type="text" class="form-control stichBorder" id="userPhone" placeholder="Phone (optional)">
 						</div>
 						<div class="col-lg-12">
 							<input type="text" class="form-control stichBorder" id="userEmail" placeholder="Email">

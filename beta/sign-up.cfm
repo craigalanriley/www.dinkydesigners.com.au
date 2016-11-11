@@ -1,4 +1,4 @@
-<cfset pageTitle = "Privacy Policy" />
+<cfset pageTitle = "Sign Up" />
 
 <cfinclude template="includes/inc_header.cfm">
 
@@ -6,7 +6,7 @@
 	<section id="content">
 		<div class="container">
 
-			<h1 class="logoLightGreen"><cfoutput>#pageTitle#</cfoutput></h1>
+			<h1 class="logoDarkGreen"><cfoutput>#pageTitle#</cfoutput></h1>
 
 			<br /><br /><br /><br /><br />
 			
