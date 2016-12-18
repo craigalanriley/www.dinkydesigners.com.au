@@ -124,7 +124,7 @@ a.logoDarkGreen:hover 	{color: #00A055 !important;}
 
 ::-webkit-input-placeholder 
 	{ /* WebKit browsers */
-    color:    white !important;
+    /* color:    white !important; */
     }
 
 
@@ -133,8 +133,8 @@ a.logoDarkGreen:hover 	{color: #00A055 !important;}
 	border-style: dashed !important;
 	color: black !important;
 	margin: 5px 0 5px 0;
-	border-color: black;
-	background-color: #FDE92B;
+	border-color: #91BE4A;
+	background-color: #FFF;
 	}
 
 
@@ -178,11 +178,6 @@ img
     margin: 40px 20px 0px 20px;
 	}
 
-#footer 
-	{
-    margin-bottom: 0px;
-	}
-
 .debug
 	{
 	border: 1px solid red;
@@ -203,28 +198,6 @@ p a:hover
 	}
 
 
-.social
-	{
-	font-size: 36px;
-	height: 68px;
-	width: 68px;
-	line-height: 68px;
-	color: #91BE4A;
-	margin-left: auto;
-	margin-right: auto;
-	background-color: white;
-	text-align: center;
-	display: block;
-	border-radius: 50%;
-	}
-
-a.social:hover 
-	{
-	text-decoration: none;
-	color: #00A055;
-	}
-
-
 .dinkyLightGreen
 	{
 	background-color: #91BE4A;
@@ -232,6 +205,7 @@ a.social:hover
 .dinkyDarkGreen
 	{
 	background-color: #00A055;
+	padding: 10px 0 10px 0;
 	}
 
 .errorText
@@ -240,20 +214,59 @@ a.social:hover
 	margin: 5px 0 5px 0;
 	}
 
-.footerSocial
+
+
+
+
+/* FOOTER */
+
+
+#footer 
+	{
+    margin-bottom: 0px;	
+	}
+
+.footer
 	{
     padding: 25px 0px 25px 0px;
 	}
 
+.footer h4
+	{
+	color: white;
+	}
+
+
+.footer a,
+.footerText a,
 .footerText
 	{
     color: #FFF;
-    font-size: 12px;
-    padding: 10px;
-    text-align: center;
+    font-size: 14px !important;
 	}
 
-.footerText a
+.social
 	{
-    color: #FFF;
+	font-size: 24px !important;
+	height: 40px;
+	width: 40px;
+	line-height: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	text-align: center;
+	display: block;
+	border-radius: 50%;
+	color: #91BE4A !important;
+	}
+	
+a.social:hover 
+	{
+	text-decoration: none;
+	color: #00A055 !important;
+	}
+
+.signup
+	{
+	margin-bottom: 10px;	
 	}
