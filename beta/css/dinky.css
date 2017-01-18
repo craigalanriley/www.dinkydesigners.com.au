@@ -10,35 +10,161 @@
 .logoDarkGreen 	{color: #00A055 !important;}
 */
 
-#largeFillWrapper
+.clipTops 
 	{
-	z-index: -10;
-	position:relative;
-	/*background-color: red;*/
+  	/*position: absolute;
+  	clip: shape(0, 0, 100px, 0);*/
+  	/* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
 	}
 
-#largeFillWrapper
+
+#dinkyTextWrapper
+	{
+	z-index: 500;
+	margin: 5px 0 5px 0;
+	height: 25px;
+	padding:0px !important; 
+	margin:0px !important;
+	}
+
+#designerBack,
+#designerNext{
+	z-index: 1000;
+	background-image: none;
+	}
+/* Thumbs above back and next */
+#Outlines1,
+#Outlines2,
+#Outlines3,
+#Outlines4{
+	z-index: 2000;
+	}
+
+.glyphicon-chevron-left,
+.glyphicon-chevron-right
+	{
+	color: #00A8DE;
+	}
+
+
+#largeOutlineWrapper
+	{
+	z-index: 0;
+	position:relative;
+    text-align: center;
+	min-height: 250px;
+	margin: 5px 0 0 0;
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	/*padding-right: 0px !important;*/
+	}
+
+#stickFigureWrapper
+	{
+	z-index: 10;
+	top: 0;
+	position: absolute;
+    text-align: center;
+	margin: 0 0 0 0;
+	/*border: 1px solid yellow;*/
+	}
+#stickFillWrapper
 	{
 	z-index: 20;
+	top:0;
 	position:absolute;
-    top:0;
-    width: 100%;
-    height: 100px;
     text-align: center;
+	margin: 0px 0 0 0;
+	height: 66px;
+	/*border: 1px solid blue;*/
+	}
+#baseFillWrapper
+	{
+	z-index: 30;
+	top: 100;
+	position:absolute;
+    text-align: center;
+	margin: 66px 0 0 0;
+	height: 100px;
+	/*border: 1px solid red;*/
+	}
+#basePatternWrapper
+	{
+	z-index: 40;
+	top:0;
+	position:absolute;
+    text-align: center;
+	margin: 66px 0 0 0;
+	height: 150px;
+	/*border: 1px solid green;*/
+	}
+
+
+#step1_outline_holder{
+	height: 250px; 
+	width: 150px; 
+	}
+#step1_fill_holder{
+	height: 66px; 
+	width: 100px; 
+	}
+#step2_outline_holder{
+	height: 150px; 
+	width: 200px; 
+	}
+#step2_fill_holder{
+	height: 100px; 
+	width: 200px; 
+	}
+
+
+	
+
+#thumbOutline,
+#thumbFill{
+	z-index: 20000; 
+	min-height: 60px;
 	}
 
 
 
+/* Thumbs need to be above arrows so can click them all */
 .outlineThumb
 	{
-	height: 50px; 
+	height: 40px; 
+	padding: 5px;
+	width: auto;
+	}
+.selectedThumb
+	{
+	border: 1px solid #E9187E;
+	border-radius: 5px;
 	}
 
 .fillThumb
 	{
-	height: 50px; 
-	width: 60px;
+	height: 40px; 
+	padding: 5px;
+	width: auto;
 	}
+
+
+
+/*#baseFillWrapper
+	{
+	z-index: -20;
+	position:relative;
+	background-color: red;
+	}
+
+#basePatternWrapper
+	{
+	z-index: -30;
+	position:relative;
+	background-color: red;
+	}*/
+
+
 
 h5 {
 	margin-top: 0px;
